@@ -1,0 +1,29 @@
+[
+  {
+    "id_entrega": "ENT001",
+    "id_cliente": "CLI123",
+    "origem": { "endereco": "Rua A, 100", "cidade": "São Paulo", "estado": "SP" },
+    "destino": { "endereco": "Av B, 200", "cidade": "Campinas", "estado": "SP" },
+    "status": "em trânsito",
+    "data_coleta": { "$date": "2025-06-04T08:00:00Z" },
+    "data_entrega": null
+  },
+  {
+    "id_entrega": "ENT002",
+    "id_cliente": "CLI123",
+    "origem": { "endereco": "Av C, 300", "cidade": "Rio de Janeiro", "estado": "RJ" },
+    "destino": { "endereco": "Rua D, 400", "cidade": "Niterói", "estado": "RJ" },
+    "status": "entregue",
+    "data_coleta": { "$date": "2025-06-01T10:00:00Z" },
+    "data_entrega": { "$date": "2025-06-02T18:00:00Z" }
+  },
+  {
+    "id_entrega": "ENT003",
+    "id_cliente": "CLI456",
+    "origem": { "endereco": "Rua E, 500", "cidade": "Curitiba", "estado": "PR" },
+    "destino": { "endereco": "Av F, 600", "cidade": "Maringá", "estado": "PR" },
+    "status": "pendente",
+    "data_coleta": null,
+    "data_entrega": null
+  }
+]
